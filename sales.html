@@ -5,12 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>Sales</title>
   </head>
   <body>
     <h1>Sales</h1>
-    <div id="Seattle"></div>
-    <div id="Tokyo"></div>
+    <table id="myTable"></table>
+    <main>
+      <div class="form">
+        <form id="newStoreForm">
+          <fieldset>
+            <legend>Enter New Cookie Store</legend>
+            <label for="name-input">Store Name:</label>
+            <input name="name" id="name-input" type="text" />
+            <label for="min-cust-input">Min Customers / hour:</label>
+            <input name="minCust" id="min-cust-input" type="text" />
+            <label for="max-cust-input">Max Customers / hour:</label>
+            <input name="maxCust" id="max-cust-input" type="text" />
+            <label for="avg-cookies-input">Average Cookies sold / hour:</label>
+            <input name="avgCookies" id="avg-cookies-input" type="text" />
+            <button id="submit-button" type="submit">SUBMIT</button>
+          </fieldset>
+        </form>
+      </div>
+    </main>
     <script src="app.js"></script>
   </body>
+  <footer>
+    <div id="home">
+      Hey you actually want to be on the <a href="index.html">home</a> page.
+    </div>
+  </footer>
 </html>
